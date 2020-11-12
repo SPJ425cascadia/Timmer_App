@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
-                intent.putExtra( "seconds", 10);
+                intent.putExtra( "seconds", 60);
                 startActivity(intent);
             }
         } );
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
-                intent.putExtra( "seconds", 60);
+                intent.putExtra( "seconds", 120);
                 startActivity(intent);
             }
         } );
